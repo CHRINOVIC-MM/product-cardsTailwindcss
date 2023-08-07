@@ -4,10 +4,170 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Navbar</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Readex+Pro:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
     <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body{
+            font-family: 'Readex Pro', sans-serif;
+        }
+    </style>
 </head>
-<body class="h-screen bg-gray flex items-center justify-center">
+<body class="h-screen bg-gray flex items-center justify-center gap-10">
+    <div class="bg-white text-gray-700 w-72 min-h-[10rem] shadow-lg rounded-md overflow-hidden">
+        <img
+                class="w-full h-60 object-cover"
+                alt="#"
+                src="https://i.pinimg.com/564x/1f/9d/ca/1f9dcac4e16c4b2582b43f70cfb0f630.jpg"/>
+        <div class="p-5 flex flex-col gap-3">
+            <div class="flex items-center gap-2">
+                <span class="px-1 rounded-full text-xs bg-gray-100">Stock ready</span>
+                <span class="px-1 rounded-full text-xs bg-gray-100">Official store</span>
+            </div>
 
+            <h2 class="font-semi-bold text-2xl overflow-ellipsis overflow-hidden whitespace-nowrap">
+                Air Nike choose
+            </h2>
+
+            <div>
+                <span class="text-xl font-bold">
+                    Price: 400.000
+                </span>
+                <div class="flex items-center gap-2 mt-1">
+                    <span class="text-sm line-through opacity-50">
+                        Price: 500.000
+                    </span>
+                    <span class="bg-green-400 px-1.5 rounded-md text-xs text-white">
+                        save 20%
+                    </span>
+                </div>
+            </div>
+            <span class="flex items-center mt-1">
+                <i class="fa-solid fa-star text-amber-400"></i>
+                <i class="fa-solid fa-star text-amber-400"></i>
+                <i class="fa-solid fa-star text-amber-400"></i>
+                <i class="fa-solid fa-star-half-stroke text-amber-400"></i>
+                <i class="fa-solid fa-star-half-stroke text-amber-400"></i>
+                <span class="text-xs ml-2 text-gray-500">
+                    200k reviews
+                </span>
+            </span>
+            <div class="mt-5 flex gap-2">
+                <button class="bg-yellow-500/80 hover:bg-yellow-500/90 px-6 py-2 rounded-md text-white font-medium tracking-wider transition">
+                    Add to cat
+                </button>
+                <button class="flex-grow flex justify-center items-center bg-gray-300/60 hover:bg-gray-300/80 transition rounded">
+                <i class="fa-solid fa-heart opacity-50"></i>
+                </button>
+                <button class="flex-grow flex justify-center items-center bg-gray-300/60 hover:bg-gray-300/80 transition rounded">
+                    <i class="fa-solid fa-eye opacity-50"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+    <div class="bg-white text-gray-700 w-72 min-h-[10rem] shadow-lg rounded-md overflow-hidden">
+        <img
+                class="w-full h-60 object-cover"
+                alt="#"
+                src="https://i.pinimg.com/564x/c5/ed/d0/c5edd0f0464d24e0a28be53dba6846c5.jpg"/>
+        <div class="p-5 flex flex-col gap-3">
+            <div class="flex items-center gap-2">
+                <span class="px-1 rounded-full text-xs bg-gray-100">Stock ready</span>
+                <span class="px-1 rounded-full text-xs bg-gray-100">Official store</span>
+            </div>
+
+            <h2 class="font-semi-bold text-2xl overflow-ellipsis overflow-hidden whitespace-nowrap">
+                Vans choose
+            </h2>
+
+            <div>
+                <span class="text-xl font-bold">
+                    Price: 400.000
+                </span>
+                <div class="flex items-center gap-2 mt-1">
+                    <span class="text-sm line-through opacity-50">
+                        Price: 500.000
+                    </span>
+                    <span class="bg-green-400 px-1.5 rounded-md text-xs text-white">
+                        save 20%
+                    </span>
+                </div>
+            </div>
+            <span class="flex items-center mt-1">
+                <i class="fa-solid fa-star text-amber-400"></i>
+                <i class="fa-solid fa-star text-amber-400"></i>
+                <i class="fa-solid fa-star text-amber-400"></i>
+                <i class="fa-solid fa-star-half-stroke text-amber-400"></i>
+                <i class="fa-solid fa-star-half-stroke text-amber-400"></i>
+                <span class="text-xs ml-2 text-gray-500">
+                    200k reviews
+                </span>
+            </span>
+            <div class="mt-5 flex gap-2">
+                <button class="bg-yellow-500/80 hover:bg-yellow-500/90 px-6 py-2 rounded-md text-white font-medium tracking-wider transition">
+                    Add to cat
+                </button>
+                <button class="flex-grow flex justify-center items-center bg-gray-300/60 hover:bg-gray-300/80 transition rounded">
+                    <i class="fa-solid fa-heart opacity-50"></i>
+                </button>
+                <button class="flex-grow flex justify-center items-center bg-gray-300/60 hover:bg-gray-300/80 transition rounded">
+                    <i class="fa-solid fa-eye opacity-50"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+    <div class="bg-white text-gray-700 w-72 min-h-[10rem] shadow-lg rounded-md overflow-hidden">
+        <img
+                class="w-full h-60 object-cover"
+                alt="#"
+                src="https://i.pinimg.com/564x/12/a7/af/12a7afaee6721c9400143ec316c1ac7d.jpg"/>
+        <div class="p-5 flex flex-col gap-3">
+            <div class="flex items-center gap-2">
+                <span class="px-1 rounded-full text-xs bg-gray-100">Stock ready</span>
+                <span class="px-1 rounded-full text-xs bg-gray-100">Official store</span>
+            </div>
+
+            <h2 class="font-semi-bold text-2xl overflow-ellipsis overflow-hidden whitespace-nowrap">
+                Air Nike choose
+            </h2>
+
+            <div>
+                <span class="text-xl font-bold">
+                    Price: 400.000
+                </span>
+                <div class="flex items-center gap-2 mt-1">
+                    <span class="text-sm line-through opacity-50">
+                        Price: 500.000
+                    </span>
+                    <span class="bg-green-400 px-1.5 rounded-md text-xs text-white">
+                        save 20%
+                    </span>
+                </div>
+            </div>
+            <span class="flex items-center mt-1">
+                <i class="fa-solid fa-star text-amber-400"></i>
+                <i class="fa-solid fa-star text-amber-400"></i>
+                <i class="fa-solid fa-star text-amber-400"></i>
+                <i class="fa-solid fa-star-half-stroke text-amber-400"></i>
+                <i class="fa-solid fa-star-half-stroke text-amber-400"></i>
+                <span class="text-xs ml-2 text-gray-500">
+                    200k reviews
+                </span>
+            </span>
+            <div class="mt-5 flex gap-2">
+                <button class="bg-yellow-500/80 hover:bg-yellow-500/90 px-6 py-2 rounded-md text-white font-medium tracking-wider transition">
+                    Add to cat
+                </button>
+                <button class="flex-grow flex justify-center items-center bg-gray-300/60 hover:bg-gray-300/80 transition rounded">
+                    <i class="fa-solid fa-heart opacity-50"></i>
+                </button>
+                <button class="flex-grow flex justify-center items-center bg-gray-300/60 hover:bg-gray-300/80 transition rounded">
+                    <i class="fa-solid fa-eye opacity-50"></i>
+                </button>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
